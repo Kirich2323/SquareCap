@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8848a1f6e0fc6d341a022a947545ba86, type: 3}
+  m_Name: BoosterScriptable
+  m_EditorClassIdentifier: 
+  boosterSprites:
+  - {fileID: 21300000, guid: 62672fa4fc763f045839af6c8441cc66, type: 3}
+  - {fileID: 21300000, guid: 26ba02f406fe70a47b3ee1c454132d00, type: 3}
+  - {fileID: 21300000, guid: b790af21a22a8184292602dc94c61ef3, type: 3}
+  - {fileID: 21300000, guid: a9970efe4ae342a4cb7781bdf96c210a, type: 3}
+  - {fileID: 21300000, guid: 911441c042cae104285cfe86821a6801, type: 3}
+  UntouchableChangeColorCooldown: 0.5
+  UntouchableTime: 3
+  BoosterEvent: {fileID: 11400000, guid: af20fea850a43434b882467820d3c26a, type: 2}

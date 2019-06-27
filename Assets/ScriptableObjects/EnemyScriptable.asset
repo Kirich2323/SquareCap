@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4182bc31aee9e6d48a7acadf81606087, type: 3}
+  m_Name: EnemyScriptable
+  m_EditorClassIdentifier: 
+  sprtieTypes:
+  - {fileID: 11400000, guid: 7ddd140ef9c339c4d830611f804ee94d, type: 2}
+  - {fileID: 11400000, guid: ed8bc73a7feefb4459f9d6ca106f504a, type: 2}
+  - {fileID: 11400000, guid: b57474bd297a4ca4ea45670a5b78c4e6, type: 2}
+  ArmorAmount: 3
+  UntouchableChangeColorCooldown: 0.5
+  UntouchableTime: 3
+  TurnProbability: 0.15
+  StateToDamage: 0400000002000000030000000100000000000000
+  ArmorProbability:
+  - 0.5
+  - 0.35
+  - 0.15
+  ArmorToReward: 020000001000000040000000
+  StateToSpeed: 0100000006000000040000000300000000000000
