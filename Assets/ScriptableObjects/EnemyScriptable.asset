@@ -27,3 +27,5 @@ MonoBehaviour:
   - 0.15
   ArmorToReward: 020000001000000040000000
   StateToSpeed: 0100000006000000040000000300000000000000
+  ExplosionEffect: {fileID: 940950968893319210, guid: aea6e70ecb21fe44cafd504ba96b5837,
+    type: 3}
